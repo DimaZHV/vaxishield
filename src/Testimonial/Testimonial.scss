@@ -1,0 +1,46 @@
+.testim {
+	margin: 0px;
+	width: 1254px;
+	height: 517px;
+	background-color: #e8e8e8;
+	h4 {
+		margin: 0px 0px 20px 80px;
+		padding-top: 114px;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+.slider {
+	width: 560px;
+	height: 243px;
+	background: rgba($color: #83308a, $alpha: 0.5);
+	border-radius: 10px;
+	color: #ffffff;
+	.top {
+		display: flex;
+		flex-direction: row;
+		padding: 15px 0px 0px 17px;
+		p {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 23px;
+			padding: 0px;
+			margin: auto 9px;
+		}
+	}
+	.bottom {
+		padding: 15px 0px 0px 17px;
+
+		p {
+			padding: 0px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 23px;
+			width: 512px;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.testim {
+  margin: 0px;
+  width: 1254px;
+  height: 517px;
+  background-color: #e8e8e8;
+}
+
+.testim h4 {
+  margin: 0px 0px 20px 80px;
+  padding-top: 114px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.slider {
+  width: 560px;
+  height: 243px;
+  background: rgba(131, 48, 138, 0.5);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.slider .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px 0px 0px 17px;
+}
+
+.slider .top p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 0px;
+  margin: auto 9px;
+}
+
+.slider .bottom {
+  padding: 15px 0px 0px 17px;
+}
+
+.slider .bottom p {
+  padding: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  width: 512px;
+}
+/*# sourceMappingURL=Testimonial.css.map */

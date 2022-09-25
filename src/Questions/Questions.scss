@@ -1,0 +1,34 @@
+.questions {
+	width: 1098px;
+	margin: 65px auto 0px;
+	h4 {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.q-block {
+		.block-p {
+			width: 1098px;
+			height: 72px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			background: #d9d9d9;
+			border-radius: 4px;
+			img {
+				width: 15px;
+				height: 5px;
+				margin: auto 24px;
+			}
+			p {
+				margin: auto 29px;
+				padding: 0px;
+				font-style: normal;
+			}
+		}
+		.closed {
+			width: 1044px;
+			margin: 22px auto;
+		}
+	}
+}
