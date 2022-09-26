@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vaxishield/static/css/main.37e4aae4.css",
+    "main.js": "/vaxishield/static/js/main.35fed32e.js",
+    "static/js/787.2dcfda1c.chunk.js": "/vaxishield/static/js/787.2dcfda1c.chunk.js",
+    "static/media/background1.png": "/vaxishield/static/media/background1.e9315361f1a1afbd2e69.png",
+    "static/media/Genuine.png": "/vaxishield/static/media/Genuine.9f88d6100e8381445684.png",
+    "index.html": "/vaxishield/index.html",
+    "main.37e4aae4.css.map": "/vaxishield/static/css/main.37e4aae4.css.map",
+    "main.35fed32e.js.map": "/vaxishield/static/js/main.35fed32e.js.map",
+    "787.2dcfda1c.chunk.js.map": "/vaxishield/static/js/787.2dcfda1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37e4aae4.css",
+    "static/js/main.35fed32e.js"
+  ]
+}
