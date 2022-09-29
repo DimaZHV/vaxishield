@@ -5,7 +5,7 @@
 	width: 1260px;
 	justify-content: space-between;
 	margin: 0px auto;
-	@media (max-width: 375px) {
+	@media (max-width: 430px) {
 		flex-direction: column;
 		width: 375px;
 	}
@@ -21,7 +21,7 @@
 			margin-top: 79px;
 			display: flex;
 
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				margin-top: 0px;
 				margin-left: 20px;
 
@@ -34,7 +34,7 @@
 				}
 			}
 		}
-		@media (max-width: 375px) {
+		@media (max-width: 430px) {
 			width: 375px;
 			height: 527px;
 			padding-left: 0px;
@@ -53,7 +53,7 @@
 			line-height: 82px;
 			color: #83308a;
 			margin-bottom: 54px;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				font-size: 48px;
 				line-height: 56px;
 				margin-bottom: 50px;
@@ -68,7 +68,7 @@
 			font-size: 36px;
 			line-height: 44px;
 			margin-bottom: 87px;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				font-size: 24px;
 				line-height: 29px;
 				width: 324px;
@@ -84,12 +84,13 @@
 			line-height: 28px;
 			align-items: center;
 			margin: 0px 0px 8px 0px;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				font-size: 20px;
 				line-height: 23px;
 				font-weight: 700;
 				margin-bottom: 0px;
 				margin-left: 20px;
+				width: 320px;
 			}
 			span {
 				position: absolute;
@@ -105,7 +106,7 @@
 				align-items: center;
 				text-align: center;
 				border-radius: 20px;
-				@media (max-width: 375px) {
+				@media (max-width: 430px) {
 					font-size: 20px;
 					line-height: 25px;
 					width: 170px;
@@ -129,7 +130,7 @@
 	background-image: url(../../public/img/background2.png);
 	background-repeat: no-repeat;
 	width: 492px;
-	@media (max-width: 375px) {
+	@media (max-width: 430px) {
 		height: 700px;
 		width: 375px;
 	}

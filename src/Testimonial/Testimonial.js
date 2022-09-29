@@ -31,7 +31,7 @@ function Testimonial() {
 						250: {
 							slidesPerView: 1,
 						},
-						376: {
+						431: {
 							slidesPerView: 2,
 						},
 					}}

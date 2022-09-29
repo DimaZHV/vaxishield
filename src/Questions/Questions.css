@@ -3,7 +3,7 @@
   margin: 65px auto 0px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .questions {
     width: 345px;
   }
@@ -32,7 +32,7 @@
   border-radius: 4px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .questions .q-block .block-p {
     font-weight: 400;
     font-size: 16px;
@@ -58,7 +58,7 @@
   margin: 22px auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .questions .q-block .closed {
     font-weight: 400;
     font-size: 20px;

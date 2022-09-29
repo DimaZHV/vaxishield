@@ -3,7 +3,7 @@
 	width: 1254px;
 	height: 517px;
 	background-color: #e8e8e8;
-	@media (max-width: 375px) {
+	@media (max-width: 430px) {
 		width: 375px;
 	}
 	h4 {
@@ -13,7 +13,7 @@
 		font-weight: 600;
 		font-size: 24px;
 		line-height: 28px;
-		@media (max-width: 375px) {
+		@media (max-width: 430px) {
 			padding-top: 50px;
 			margin-left: 130px;
 		}
@@ -25,7 +25,7 @@
 	background: rgba($color: #83308a, $alpha: 0.5);
 	border-radius: 10px;
 	color: #ffffff;
-	@media (max-width: 375px) {
+	@media (max-width: 430px) {
 		width: 345px;
 		height: 300px;
 		margin-left: 15px;
@@ -45,7 +45,7 @@
 	}
 	.bottom {
 		padding: 15px 0px 0px 17px;
-		@media (max-width: 375px) {
+		@media (max-width: 430px) {
 			padding: 5px 0px 0px 17px;
 		}
 		p {
@@ -55,21 +55,21 @@
 			font-size: 20px;
 			line-height: 23px;
 			width: 512px;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				width: 325px;
 			}
 		}
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
 	.swiper {
 		width: 375px;
 	}
 }
 
-@media screen and (min-width: 376px) {
+/*@media screen and (min-width: 431px) {
 	.swiper {
 		width: 1250px;
 	}
-}
+}*/

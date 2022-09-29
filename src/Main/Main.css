@@ -14,7 +14,7 @@
   margin: 0px auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -40,7 +40,7 @@
   display: flex;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description .style {
     margin-top: 0px;
     margin-left: 20px;
@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description {
     width: 375px;
     height: 527px;
@@ -79,7 +79,7 @@
   margin-bottom: 54px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description h1 {
     font-size: 48px;
     line-height: 56px;
@@ -98,7 +98,7 @@
   margin-bottom: 87px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description h2 {
     font-size: 24px;
     line-height: 29px;
@@ -120,13 +120,14 @@
   margin: 0px 0px 8px 0px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description p {
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
     margin-bottom: 0px;
     margin-left: 20px;
+    width: 320px;
   }
 }
 
@@ -148,7 +149,7 @@
   border-radius: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-header .main-description p span {
     font-size: 20px;
     line-height: 25px;
@@ -174,7 +175,7 @@
   width: 492px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .main-form {
     height: 700px;
     width: 375px;

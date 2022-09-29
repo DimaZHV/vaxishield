@@ -1,7 +1,7 @@
 .questions {
 	width: 1098px;
 	margin: 65px auto 0px;
-	@media (max-width: 375px) {
+	@media (max-width: 430px) {
 		width: 345px;
 	}
 	h4 {
@@ -18,7 +18,7 @@
 			justify-content: space-between;
 			background: #d9d9d9;
 			border-radius: 4px;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				font-weight: 400;
 				font-size: 16px;
 				line-height: 19px;
@@ -38,7 +38,7 @@
 		.closed {
 			width: 1044px;
 			margin: 22px auto;
-			@media (max-width: 375px) {
+			@media (max-width: 430px) {
 				font-weight: 400;
 				font-size: 20px;
 				line-height: 23px;
