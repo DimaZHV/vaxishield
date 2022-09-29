@@ -23,7 +23,19 @@ function Testimonial() {
 		<div className="testim">
 			<h4>Testimonial</h4>
 			<div className="swiper">
-				<Swiper slidesPerView={2} loop={true} centeredSlides={true}>
+				<Swiper
+					slidesPerView={2}
+					loop={true}
+					centeredSlides={true}
+					breakpoints={{
+						250: {
+							slidesPerView: 1,
+						},
+						376: {
+							slidesPerView: 2,
+						},
+					}}
+				>
 					{testim.map((el) => (
 						<SwiperSlide key={el.name}>
 							<div className="slider">

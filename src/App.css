@@ -1,4 +1,11 @@
 .App {
   width: 1260px;
-	margin: 0px auto;
+  margin: 0px auto;
 }
+
+@media (max-width: 376px) {
+  .App {
+    width: 375px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

@@ -5,6 +5,12 @@
   background-color: #e8e8e8;
 }
 
+@media (max-width: 375px) {
+  .testim {
+    width: 375px;
+  }
+}
+
 .testim h4 {
   margin: 0px 0px 20px 80px;
   padding-top: 114px;
@@ -14,12 +20,27 @@
   line-height: 28px;
 }
 
+@media (max-width: 375px) {
+  .testim h4 {
+    padding-top: 50px;
+    margin-left: 130px;
+  }
+}
+
 .slider {
   width: 560px;
   height: 243px;
   background: rgba(131, 48, 138, 0.5);
   border-radius: 10px;
   color: #ffffff;
+}
+
+@media (max-width: 375px) {
+  .slider {
+    width: 345px;
+    height: 300px;
+    margin-left: 15px;
+  }
 }
 
 .slider .top {
@@ -46,6 +67,12 @@
   padding: 15px 0px 0px 17px;
 }
 
+@media (max-width: 375px) {
+  .slider .bottom {
+    padding: 5px 0px 0px 17px;
+  }
+}
+
 .slider .bottom p {
   padding: 0px;
   font-style: normal;
@@ -53,5 +80,23 @@
   font-size: 20px;
   line-height: 23px;
   width: 512px;
+}
+
+@media (max-width: 375px) {
+  .slider .bottom p {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .swiper {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .swiper {
+    width: 1250px;
+  }
 }
 /*# sourceMappingURL=Testimonial.css.map */

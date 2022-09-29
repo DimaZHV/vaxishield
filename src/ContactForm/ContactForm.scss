@@ -13,6 +13,12 @@
 	margin-top: 96px;
 	margin-left: 678px;
 	background: rgba(251, 251, 251, 0.6);
+	@media (max-width: 375px) {
+		margin-top: 556px;
+		margin-left: 15px;
+		width: 345px;
+		height: 637px;
+	}
 	h2 {
 		font-size: 40px;
 		line-height: 48px;
@@ -21,6 +27,13 @@
 		color: #83308a;
 		margin: 0px;
 		margin-top: 62px;
+		@media (max-width: 375px) {
+			font-weight: 600;
+			font-size: 32px;
+			line-height: 39px;
+			width: 330px;
+			margin-left: 30px;
+		}
 	}
 	h4 {
 		width: 442px;
@@ -28,6 +41,13 @@
 		line-height: 24px;
 		text-align: left;
 		margin: 21px 0px 30px;
+		@media (max-width: 375px) {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 19px;
+			width: 200px;
+			margin-left: -100px;
+		}
 	}
 	form {
 		display: flex;
@@ -41,6 +61,9 @@
 			border: 1px solid;
 			border-radius: 4px;
 			background: inherit;
+			@media (max-width: 375px) {
+				width: 300px;
+			}
 		}
 		button {
 			align-items: center;
@@ -56,6 +79,10 @@
 			font-size: 24px;
 			line-height: 20px;
 			letter-spacing: 0.005em;
+			@media (max-width: 375px) {
+				width: 300px;
+				margin-left: 10px;
+			}
 		}
 	}
 }
@@ -74,7 +101,12 @@
 	margin-left: 678px;
 	background: rgba(251, 251, 251, 0.6);
 	text-align: center;
-	//	display: none;
+	@media (max-width: 375px) {
+		margin-top: 556px;
+		margin-left: 15px;
+		width: 345px;
+		height: 637px;
+	}
 
 	.white {
 		position: absolute;
@@ -87,6 +119,8 @@
 		line-height: 50px;
 		padding: 0px;
 		margin: 0px;
+		@media (max-width: 375px) {
+		}
 	}
 	h3 {
 		font-style: normal;
@@ -98,6 +132,11 @@
 		margin-bottom: 41px;
 		width: 403px;
 		padding: 0px;
+		@media (max-width: 375px) {
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 32px;
+		}
 	}
 	h5 {
 		font-style: normal;
@@ -107,5 +146,10 @@
 		width: 366px;
 		padding: 0px;
 		margin: 0px;
+		@media (max-width: 375px) {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 24px;
+		}
 	}
 }

@@ -17,7 +17,7 @@ function Main() {
 					avail<span>20% discount</span>
 				</p>
 				<p>on the vaccination package</p>
-				<div style={{ display: "flex", marginTop: "79px" }}>
+				<div className="style">
 					<img src={Genuine} alt="" />
 					<p className="imageText">
 						25000+ vaccinations administered in 3 cities
